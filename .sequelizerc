@@ -1,0 +1,16 @@
+var path = require('path')
+var config = require('./config');
+var environment = config.get('environment');
+module.exports = {
+  'config': __filename,
+  'models-path' : path.resolve('plugins/flow-apis/models','mysql'),
+  'migrations-path' : path.resolve('plugins/flow-apis','migrations')
+}
+
+module.exports[environment] = {
+                                   "username": config.get('database:mysql:master:username'),
+                                   "password": config.get('database:mysql:master:password'),
+                                   "database": config.get('database:mysql:db'),
+                                   "host": config.get('database:mysql:master:host'),
+                                   "dialect": "mysql"
+                               }
