@@ -1,0 +1,13 @@
+{
+  "externalServices": {
+    "address": {
+      "host": "http://localhost:27001",
+      "postUrl": "/v1/addresses",
+      "timeout":3000
+    },
+    "statusTracking": {
+      "host": "http://localhost:27002",
+      "postUrl": "/v1/documents"
+    }
+  }
+}

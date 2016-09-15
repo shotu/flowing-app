@@ -1,0 +1,40 @@
+{
+  "database": {
+    "mysql": {
+      "db": "flow_db",
+      "master": {
+        "username": "root",
+        "host": "127.0.0.1",
+        "password":""
+      },
+      "slave1":
+      {
+        "username": "root",
+        "host": "127.0.0.1",
+        "password":""
+      }
+    }
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 27020
+  },
+  "project": {
+    "name": "flow"
+  },
+  "logs": {
+    "logLevel": "silly"
+  },
+  "utility":{
+    "volWeightDivider":5000
+  },
+  "omsServiceId": {
+    "serviceId": "flowapis"
+  },
+  "auth": {
+    "enabled": false
+  },
+  "customerSupport":{
+    "phone":"+91-8039375977"
+  }
+}
