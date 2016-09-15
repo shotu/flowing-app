@@ -1,6 +1,4 @@
-/**
- * Created by swapnil on 05/03/16.
- */
+
 'use strict';
 
 var fs = require('fs');

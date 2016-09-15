@@ -1,6 +1,3 @@
-/**
- * Created by swapnil on 28/03/16.
- */
 
 var logger = require('./logger-utils').logger;
 var Boom = require('boom');

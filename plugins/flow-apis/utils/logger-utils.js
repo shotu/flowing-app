@@ -1,6 +1,3 @@
-/**
- * Created by ashish on 15/04/16.
- */
 
 'use strict';
 var winston = require('winston');

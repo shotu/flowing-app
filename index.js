@@ -1,6 +1,4 @@
-/**
- * Created by swapnil on 09/03/16.
- */
+
 'use strict';
 
 const config = require('./config');

@@ -1,6 +1,4 @@
-/**
- * Created by swapnil on 14/06/16.
- */
+
 'use strict';
 const moment = require('moment');
 module.exports = {

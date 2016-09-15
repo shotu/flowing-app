@@ -1,7 +1,3 @@
-/**
- * Created by swapnil on 09/03/16.
- */
-
 const nconf = require('nconf');
 const fs = require('fs');
 const path = require('path');
